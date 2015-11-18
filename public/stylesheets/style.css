@@ -13,25 +13,10 @@
 }
 #t17_content{
     margin: 20px;
-}
-.t17_indent {
     text-indent: 30px;
 }
-/*#t17_pages{*/
-    /*float: right;*/
-    /*width: auto;*/
-    /*margin-top: 0;*/
-    /*display:inline-block;*/
-    /*text-align: center;*/
-/*}*/
-/*#t17_pagin{*/
-    /*margin-top: -57px;*/
-    /*width: auto;*/
-    /*text-align: center;*/
-    /*text-indent: 0;*/
-/*}*/
-/*#t17_descripPage{*/
-    /*margin-top: 27px;*/
-    /*margin-right: 70px;*/
-    /*text-align: right;*/
-/*}*/
+.t16_btn{
+    float: right;
+    width: 150px;
+    background-color: #56317d;
+}
