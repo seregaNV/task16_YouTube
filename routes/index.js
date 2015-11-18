@@ -9,6 +9,10 @@ router.get('/', function(req, res, next) {
     });
 });
 
+router.get('/api', function(req, res, next) {
+    res.redirect('https://www.googleapis.com/youtube/v3/videos?id=ILpS4Fq3lmw&key=AIzaSyBSq2iIy-IfMWsyVaJmZW2_sy2QwNOdb7I%20&part=snippet,statistics,status');
+});
+
 router.use(function(req, res) {
     console.error('Page not found');
     throw new Error('Page not found');
